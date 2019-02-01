@@ -170,6 +170,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     number2 = Double.parseDouble(theSecondView.getText().toString());
                     theAnswerView.setText(Math.sqrt(number2)+"");
                 }
+                if(option == "%"){
+                    number1 = Double.parseDouble(theFirstView.getText().toString());
+                    number2 = Double.parseDouble(theSecondView.getText().toString());
+                    theAnswerView.setText(number1%number2+"");
+                }
                 break;
 
         }
