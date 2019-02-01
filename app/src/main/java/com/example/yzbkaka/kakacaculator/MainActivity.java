@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView theOptionView;
     TextView theSecondView;
     TextView theEqualView;
-    TextView theAnswerView;
+    TextView theAnswerView ;
     String option = "";
     String str1 = "",str2 = "";
     double number1 ,number2;
@@ -130,11 +131,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.delete:
-                if(theAnswerView.getText().toString() == null){
-                    if((theSecondView.getText().toString())!= null){
-
+                if(theAnswerView.getText().toString() == ""){
+                    if((theSecondView.getText().toString())!= ""){
+                        int length = str2.length();
+                        if(length == 1){
+                            theSecondView.setText("");
+                        }
+                        else{
+                            str2 = str2.substring(0,length-1);
+                            theSecondView.setText(str2);
+                        }
+                        break;
+                    }
+                    if((theSecondView.getText().toString()) == "" && (theOptionView.getText().toString()) != ""){
+                        theOptionView.setText("");
+                        break;
+                    }
+                    if((theSecondView.getText().toString()) == "" && (theAnswerView.getText().toString()) == "" && (theFirstView.getText().toString()) != ""){
+                        int length = str1.length();
+                        if(length == 1){
+                            theFirstView.setText("");
+                        }
+                        else{
+                            str1 = str1.substring(0,length-1);
+                            theFirstView.setText(str1);
+                        }
+                        break;
                     }
                 }
+                break;
 
 
             case R.id.equal:

@@ -30,13 +30,15 @@
             android:layout_height="wrap_content"
             android:textSize="50dp"
             android:maxLines="1"/>
-        <TextView
-            android:id="@+id/the_answer"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="50dp"/>
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/the_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textSize="50dp"/>
 
     <View
         android:layout_width="wrap_content"
