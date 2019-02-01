@@ -5,8 +5,6 @@
 ![求余数.gif](https://upload-images.jianshu.io/upload_images/12070003-a576347bb1ac59fd.gif?imageMogr2/auto-orient/strip)
  ### 开方
 ![根号.gif](https://upload-images.jianshu.io/upload_images/12070003-e1912b168d63b83d.gif?imageMogr2/auto-orient/strip)
-### 加减乘除
-![Video_20190201_054900_543.gif](https://upload-images.jianshu.io/upload_images/12070003-1798571e40efe4a1.gif?imageMogr2/auto-orient/strip)
  ### DEL
  ![del.gif](https://upload-images.jianshu.io/upload_images/12070003-cbc4720a827e2c80.gif?imageMogr2/auto-orient/strip)
 # 注意
