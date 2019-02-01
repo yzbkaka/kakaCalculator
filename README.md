@@ -2,7 +2,7 @@
  这个项目是比较适合新手Android开发者的。项目整体并没有用到一些骚操作，都是按照正常的逻辑来一步一步实现功能的，个人感觉是十分适合初学者进行学习的。
  # 计算器概括
  ### 求余计算
-![求余](/home/yzbkaka/Desktop/求余数.gif)
+![求余数.gif](https://upload-images.jianshu.io/upload_images/12070003-a576347bb1ac59fd.gif?imageMogr2/auto-orient/strip)
  ### 开方
  /home/yzbkaka/Desktop/根号.gif
  ### 加减乘除
