@@ -7,6 +7,8 @@
 ![根号.gif](https://upload-images.jianshu.io/upload_images/12070003-e1912b168d63b83d.gif?imageMogr2/auto-orient/strip)
  ### DEL
  ![del.gif](https://upload-images.jianshu.io/upload_images/12070003-cbc4720a827e2c80.gif?imageMogr2/auto-orient/strip)
+ ### 加减乘除
+ ![加减乘除.gif]( http://m.qpic.cn/psb?/V1197BQG21erMf/9e4m.tZ2kFMNKYXVe.VEMquT9DhM.Dgt8iRfbuyKFlk!/b/dL8AAAAAAAAA&bo=RAFAAkQBQAICmb0!&rf=viewer_4)
 # 注意
  以为是比较简易的计算器，所以只能进行两位数的运算。
 # 已知Bug
